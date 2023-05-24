@@ -1,0 +1,140 @@
+
+body {
+  font-family: garamond, serif;
+  margin: 5%;
+  padding: 5%;
+}
+  
+h1, h2, h3 {
+    color: #333;
+    text-align: center;
+}
+  
+h1 {  
+  font-size: 10em;
+  margin: 10px 0;
+}
+.title-link {
+  text-decoration: none; /* Elimina la decoración del enlace */
+  color: inherit; /* Hereda el color del texto del elemento padre */
+  
+}
+h2 {
+  font-size: 24px;
+  margin: 15px 0;
+}
+  
+article {
+  margin-bottom: 30px;
+}
+  
+p{
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+  #noticias-recientes, #noticias-del-mes {
+    margin-bottom: 50px;
+    border-bottom: 10px solid #ccc;
+    padding-bottom: 20px;
+  }
+  
+
+  footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+nav {
+  background-color: #333; /* Color de fondo */
+  padding: 10px 0; /* Espaciado interno */
+  display: flex; /* Muestra los elementos en línea */
+  justify-content:center; /* Distribuye los elementos alineados */
+}
+
+nav ul {
+    list-style-type: none; /* Quita los estilos de lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Muestra los elementos en línea */
+}
+
+nav ul li {
+    margin-right: 30px; /* Espacio entre elementos */
+}
+
+
+nav ul li:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento */
+    margin-left: auto; /* Empuja el último elemento al borde derecho */
+}
+
+nav ul li a {
+    color: #fff; /* Color del texto */
+    text-decoration: none; /* Quita la decoración de enlace */
+    padding: 5px 10px; /* Espaciado interno */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Color de fondo al pasar el cursor */
+}
+#media-scroller {
+  overflow-x: auto; /* Permite desplazamiento horizontal */
+  white-space: nowrap; /* Evita saltos de línea */
+}
+
+#media-scroller .media-item {
+  display: inline-block; /* Muestra los elementos en línea */
+  margin-right: 20px; /* Espacio entre elementos */
+  vertical-align: top; /* Alinea los elementos superiormente */
+}
+
+#media-scroller .media-item img {
+  width: 200px; /* Ancho de la imagen */
+  height: auto; /* Altura automática proporcional */
+}
+#media-scroller .media-item h3 {
+  margin-top: 0; /* Elimina el margen superior del título */
+  overflow: hidden; /* Oculta el desbordamiento del título */
+  text-overflow: ellipsis; /* Agrega puntos suspensivos al final del texto truncado */
+  white-space: nowrap; /* Evita saltos de línea del título */
+  width: 200px;
+  margin-bottom: 20px;
+}
+.button-container {
+  display: inline-block;
+  width: 60px; /* Ancho del contenedor circular */
+  height: 60px; /* Altura del contenedor circular */
+  border-radius: 50%; /* Forma circular */
+  background-color: rgba(0, 0, 0, 0.5); /* Color de fondo del contenedor */
+  margin-right: 10px; /* Espacio entre contenedores */
+}
+.centered-image {
+  display: block; /* Cambia el elemento a bloque para que ocupe todo el ancho disponible */
+  margin: 0 auto; /* Establece los márgenes automáticos para centrar horizontalmente */
+}
+/* Estilos para los botones dentro del contenedor */
+.button-container button {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: transparent;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 50%; /* Forma circular */
+  text-align: center;
+  line-height: 60px; /* Ajusta la altura del texto verticalmente */
+}
