@@ -15,8 +15,8 @@ h1 {
   margin: 10px 0;
 }
 .title-link {
-  text-decoration: none; /* Elimina la decoración del enlace */
-  color: inherit; /* Hereda el color del texto del elemento padre */
+  text-decoration: none;
+  color: inherit;
   
 }
 h2 {
@@ -56,74 +56,74 @@ p{
     text-decoration: underline;
   }
 nav {
-  background-color: #333; /* Color de fondo */
-  padding: 10px 0; /* Espaciado interno */
-  display: flex; /* Muestra los elementos en línea */
-  justify-content:center; /* Distribuye los elementos alineados */
+  background-color: #333;
+  padding: 10px 0;
+  display: flex;
+  justify-content:center; 
 }
 
 nav ul {
-    list-style-type: none; /* Quita los estilos de lista */
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Muestra los elementos en línea */
+    display: flex;
 }
 
 nav ul li {
-    margin-right: 30px; /* Espacio entre elementos */
+    margin-right: 30px;
 }
 
 
 nav ul li:last-child {
-    margin-right: 0; /* Elimina el margen derecho del último elemento */
-    margin-left: auto; /* Empuja el último elemento al borde derecho */
+    margin-right: 0;
+    margin-left: auto; 
 }
 
 nav ul li a {
-    color: #fff; /* Color del texto */
-    text-decoration: none; /* Quita la decoración de enlace */
-    padding: 5px 10px; /* Espaciado interno */
+    color: #fff; 
+    text-decoration: none; 
+    padding: 5px 10px;
 }
 
 nav ul li a:hover {
-    background-color: #555; /* Color de fondo al pasar el cursor */
+    background-color: #555;
 }
 #media-scroller {
-  overflow-x: auto; /* Permite desplazamiento horizontal */
-  white-space: nowrap; /* Evita saltos de línea */
+  overflow-x: auto;
+  white-space: nowrap;
 }
 
 #media-scroller .media-item {
-  display: inline-block; /* Muestra los elementos en línea */
-  margin-right: 20px; /* Espacio entre elementos */
-  vertical-align: top; /* Alinea los elementos superiormente */
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: top; 
 }
 
 #media-scroller .media-item img {
-  width: 200px; /* Ancho de la imagen */
-  height: auto; /* Altura automática proporcional */
+  width: 200px; 
+  height: auto;
 }
 #media-scroller .media-item h3 {
-  margin-top: 0; /* Elimina el margen superior del título */
-  overflow: hidden; /* Oculta el desbordamiento del título */
-  text-overflow: ellipsis; /* Agrega puntos suspensivos al final del texto truncado */
-  white-space: nowrap; /* Evita saltos de línea del título */
+  margin-top: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   width: 200px;
   margin-bottom: 20px;
 }
 .button-container {
   display: inline-block;
-  width: 60px; /* Ancho del contenedor circular */
-  height: 60px; /* Altura del contenedor circular */
-  border-radius: 50%; /* Forma circular */
-  background-color: rgba(0, 0, 0, 0.5); /* Color de fondo del contenedor */
-  margin-right: 10px; /* Espacio entre contenedores */
+  width: 60px; 
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-right: 10px;
 }
 .centered-image {
-  display: block; /* Cambia el elemento a bloque para que ocupe todo el ancho disponible */
-  margin: 0 auto; /* Establece los márgenes automáticos para centrar horizontalmente */
+  display: block; 
+  margin: 0 auto; 
 }
-/* Estilos para los botones dentro del contenedor */
+
 .button-container button {
   display: block;
   width: 100%;
@@ -134,7 +134,7 @@ nav ul li a:hover {
   font-size: 18px;
   cursor: pointer;
   outline: none;
-  border-radius: 50%; /* Forma circular */
+  border-radius: 50%;
   text-align: center;
-  line-height: 60px; /* Ajusta la altura del texto verticalmente */
+  line-height: 60px;
 }
